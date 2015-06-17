@@ -1,7 +1,7 @@
 
 var PageKite = require('../');
 
-var pagekite = new PageKite('account-identifier (email)', 'access-credentials (password)');
+var pagekite = new PageKite('email', 'password');
 
 pagekite.login(function(err, result) {
   

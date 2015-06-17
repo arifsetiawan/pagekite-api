@@ -12,6 +12,18 @@ npm install pagekite-api
 ```javascript
 var Pagekite = require('pagekite-api');
 
+var pagekite = new PageKite('email', 'password');
+
+pagekite.login(function(err, result) {
+  
+  pagekite.getAvailableDomains(function(err, result){
+    
+    pagekite.logout(function(err, result) {
+    })
+
+  })
+
+});
 ```
 
 ## API
