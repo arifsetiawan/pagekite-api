@@ -18,6 +18,9 @@ var Pagekite = require('pagekite-api');
 
 ### Supported API Calls
 
-## Inspiration
+* User Account
+  * Login
+  * Logout
 
-This module is inspired by [webfaction-api](https://github.com/robflaherty/webfaction-api)
+* Kite Manipulation
+  * Get available domains
